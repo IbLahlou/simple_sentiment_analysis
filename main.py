@@ -2,7 +2,7 @@ from newspaper import Article
 from textblob import TextBlob
 
 
-choice = input("Local Text or Online ? : (Y/N)")
+choice = "Y"
 if (choice == 'Y'):
     print("Tap the url in the code")
     url = 'https://www.theguardian.com/world/2023/jul/20/auckland-shooting-police-shut-down-cbd-streets-amid-reports-of-gunman'
@@ -15,7 +15,6 @@ if (choice == 'Y'):
     text = article.summary
     print(text)
 
-    
 else :
     print("Tap the path of Which file you want")
     with open('negative_file.txt', 'r') as f:
