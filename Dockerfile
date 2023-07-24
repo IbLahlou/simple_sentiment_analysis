@@ -13,5 +13,8 @@ RUN pip install newspaper3k textblob
 # Set an environment variable to prevent buffering of stdout/stderr
 ENV PYTHONUNBUFFERED=1
 
+# Install the nltk data
+RUN python -m nltk.downloader punkt
+
 # Run the Python script when the container starts
 CMD ["python", "main.py"]
