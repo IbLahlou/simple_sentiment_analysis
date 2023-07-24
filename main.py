@@ -7,5 +7,5 @@ article.download()
 article.parse()
 article.nlp()
 
-text = article.text
+text = article.summary
 print(text)
