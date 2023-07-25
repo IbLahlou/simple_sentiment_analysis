@@ -1,5 +1,3 @@
-Sure! Below is a sample README.md file for your sentiment analysis Docker project:
-
 # Sentiment Analysis with Docker
 
 This project provides a Python script that performs sentiment analysis on text using the `newspaper3k` and `textblob` libraries. The script allows you to analyze the sentiment of either an online article or a local text file.
