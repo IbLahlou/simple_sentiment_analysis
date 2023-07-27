@@ -1,0 +1,2 @@
+pip install newspaper3k textblob
+python -m nltk.downloader punkt
